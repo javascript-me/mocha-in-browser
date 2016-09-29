@@ -15,7 +15,7 @@ describe('Test add text to page', function () {
     it('should show what I input', function () {
         container.innerHTML = "<li>aaa</li>";
         chai.expect(container.innerHTML).to.equal("<li>aaa</li>");
-        chai.assert.equal(1, 1);
+        chai.assert.equal(1, 10);
     });
 
 });
